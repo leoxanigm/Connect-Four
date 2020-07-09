@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#winner-container {
+  display: none;
+}
+
+#game {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+#game > div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #eee;
+}
+
+.player1 {
+  border: none !important;
+  border-radius: 50%;
+  background: teal;
+}
+
+.player2 {
+  border: none !important;
+  border-radius: 50%;
+  background: chocolate;
+}
